@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageButton
+        android:id="@+id/cameraSwap"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/gallery"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        />
+    <ImageButton
+        android:id="@+id/takePhoto"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/gallery"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        />
+
+    <ImageButton
+        android:id="@+id/reTakePhoto"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/gallery"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:visibility="gone"
+        android:layout_marginLeft="10dp"
+        android:background="@android:color/transparent"
+        />
+
+    <ImageButton
+        android:id="@+id/backBtn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/gallery"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="10dp"
+        android:background="@android:color/transparent"
+        />
+
+    <ImageButton
+        android:id="@+id/surePhoto"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/gallery"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        android:background="@android:color/transparent"
+        />
+</RelativeLayout>
